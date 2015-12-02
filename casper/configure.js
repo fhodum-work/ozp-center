@@ -21,6 +21,6 @@ module.exports = {
         };
         casper.options.verbose = true;
         casper.options.logLevel = "warning"; // More debug available with turnOnDebug() in debug.js
-        casper.options.viewportSize = {width: 700, height: 600};
+        casper.options.viewportSize = {width: 1200, height: 600};
     }
 };

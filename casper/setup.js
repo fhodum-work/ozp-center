@@ -6,9 +6,8 @@ var password = require('./configure').password;
 
 module.exports = {
     setup: function(casper) {
-        casper.start();
-
         configureCasper(casper);
+        casper.start();
         turnOnDebug(casper);
         turnOnShim(casper);
 
