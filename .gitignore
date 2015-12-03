@@ -10,3 +10,4 @@ dist
 npm-debug.log
 
 app/images/marketplace-logo.psd
+casper/tests/captures/
