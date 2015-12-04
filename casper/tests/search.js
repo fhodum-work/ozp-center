@@ -68,9 +68,19 @@ casper.test.begin('Apps Mall search returns listings', 8, function (test) {
 
     // Search by listing type
     // TODO
+    casper.then(function () {
+        waitAndClick("#react-select-box-1", this, "Listing Type Drop Down");
+    });
+
+    casper.then(function () {
+        waitAndClick("#react-select-box-1-0", this, "Web Application");
+    });
 
     // Search by organization
     // TODO
+    casper.then(function () {
+        waitAndClick(".react-select-box-label", this, "Organization");
+    });
 
     casper.run(function () {
         test.done();
